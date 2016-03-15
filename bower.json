@@ -1,0 +1,25 @@
+{
+  "name": "expresstraining",
+  "description": "how we start with express",
+  "main": "index.js",
+  "authors": [
+    "riturajratan"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "express"
+  ],
+  "homepage": "https://github.com/riturajratan/MEAN-training",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
+}

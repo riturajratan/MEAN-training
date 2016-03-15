@@ -1,0 +1,20 @@
+{
+  "name": "expresstraining",
+  "version": "1.0.0",
+  "description": "how we start with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "riturajratan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "lodash": "^4.6.1",
+    "path": "^0.12.7"
+  }
+}
