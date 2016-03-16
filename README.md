@@ -2,9 +2,9 @@
 How to start with MEAN
 
 #Packages
-express = we are using this to kickass node app and use routing
-lodash  = using for array and object useful method
-path   = to access files and folder path
+1. express = we are using this to kickass node app and use routing
+2. lodash  = using for array and object useful method
+3. path   = to access files and folder path
 
 
 #How to Run
