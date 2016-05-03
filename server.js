@@ -4,8 +4,11 @@ var express = require('express'),
 	config = require('./lib/config/config'),
 	mongoose = require('mongoose'),
 	fs= require('fs'),
+	bodyParser = require('body-parser'),
 	app = express();
 
+	app.use(bodyParser.json());
+	app.use(bodyParser.urlencoded());
 	// Routing
  	app.use(express.static(path.join(__dirname, '/app')));
  	app.set('views', config.root + '/app/views');
